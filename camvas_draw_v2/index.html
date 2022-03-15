@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Kadai_03</title>
+</head>
+<body>
+
+    <header><h1>岸辺露伴の塗り絵アプリ</h1></header>
+
+    <div class="canvas-wrapper">
+        <div class="mycanvas">
+            <canvas id="mycanvas" width="500" height="500" style="border: solid 1px black;"></canvas>
+        </div>
+        <div class="canvas-control">
+            <button id="save">保存</button>
+            <button id="clear">白紙に戻す</button>
+            <label>色を選択 <input id="mycolor" type="color"></label>
+            <button id="eraser">消しゴム</button>
+            <button id="bold5">細い</button>
+            <button id="bold10">普通</button>
+            <button id="bold20">ちょい太</button>
+            <button id="bold70">激太</button>
+        </div>
+        <div><img id="rohan" src="img/rohan.jpg" alt=""></div>
+        
+    </div>
+    
+    <div class="imageHistory-wrapper">
+        <p>保存された画像をクリックするとキャンバスに復元できます</p>
+        <div class="imageHistory">
+            <canvas id="image1" width="100" height="100" style="border: solid 1px black;" value=1></canvas>
+            <canvas id="image2" width="100" height="100" style="border: solid 1px black;" value=2></canvas>
+            <canvas id="image3" width="100" height="100" style="border: solid 1px black;" value=3></canvas>
+        </div>
+    </div>
+    <div  class="allClear">
+        <p class="clearText">↑画像をダブルクリックで保存した画像を削除できます</p>
+        <button id="allClear">保存した画像を全て消去</button>
+    </div>
+    
+    <div class="nurieTxt"><p>↓画像をクリックして塗り絵をしてね</p></div>
+    <div class="samples">
+
+        <img id="sample1" src="img/poo.gif" alt="">
+        <img id="sample2" src="img/poo1.png" alt="">
+        <img id="sample3" src="img/poo2.jpg" alt="">
+    </div>
+
+<!-- script  JSx   -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src=index.js></script>    
+
+</body>
+</html>

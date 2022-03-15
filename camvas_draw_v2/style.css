@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;   /* 16px × 62.5% =10px */
+    height: 100%;
+}
+
+body{
+    font-size: 1.0rem;
+    font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+} 
+
+.canvas-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    font-size: 4.0rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.mycanvas{
+    padding: o auto;
+    text-align: center;
+}
+
+.canvas-control{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.canvas-control button{
+    margin: 15px 0;
+    font-size: 2.0rem;
+}
+
+#rohan{
+    width: 300px;
+    height: 410px;
+}
+
+.imageHistory-wrapper{
+    
+    text-align: center;
+    font-size: 3.0rem;
+    margin-top: 10px;
+}
+
+.imageHistory{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imageHistory canvas{
+    margin: 0 20px;
+}
+
+.allClear{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.clearText{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.allClear button{
+    font-size: 2.0rem;
+}
+
+.nurieTxt{
+    font-size: 3.0rem;
+    text-align: center;
+    margin:0 0 10px 0 ;
+}
+.samples{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#sample1{
+    width: 200px;
+    height: 200px;
+    padding: 0 30px;
+}
+
+#sample2{
+    width: 200px;
+    height: 200px;
+    padding: 0 30px;
+}
+#sample3{
+    width: 200px;
+    height: 200px;
+    padding: 0 30px;
+}
+
+.samples{
+    margin-bottom: 10px;
+}
